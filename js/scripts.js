@@ -1,12 +1,12 @@
 // RICHIESTE
-const km = parseInt(prompt("Quanti km vuoi fare?"));
-console.log("Km:", km);
+const distance = parseInt(prompt("Quanti km vuoi fare?"));
+console.log("Km:", distance);
 const age = parseInt(prompt("Quanti anni hai?"));
 console.log("Anni:", age);
-document.getElementById('dati').innerHTML = "Hai " + age + " " + "anni e vuoi percorrere " + km + "km";
+document.getElementById('dati').innerHTML = "Hai " + age + " " + "anni e vuoi percorrere " + distance + "km";
 
 // PREZZO BASE
-let pricetot = km * 0.21;
+let pricetot = distance * 0.21;
 console.log("pricetot:", pricetot.toFixed(2), "€");
 
 // SCONTO
